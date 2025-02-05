@@ -9,7 +9,7 @@ jobs = scrape_jobs(
     results_wanted=30,
     hours_old=72,
     country_indeed="",
-    linkedin_fetch_description=True # gets more info such as description, direct job url (slower)
+    linkedin_fetch_description=True, # gets more info such as description, direct job url (slower)
     job_type="fulltime"
 
     # proxies=["208.195.175.46:65095", "208.195.175.45:65095", "localhost"],
